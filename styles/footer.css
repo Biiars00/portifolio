@@ -1,17 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
+:root {
+    --cor-primaria: #000000;
+    --cor-secundaria: #F6F6F6;
+    --cor-terciaria: #FF00FF;
+    --cor-rodape: #4C134C;
+
+    --cor-fundo-destaque: rgba(255, 255, 255, 0.1);
+    
+    --fonte-primaria: 'Montserrat', sans-serif;
+    --fonte-secundaria: 'Krona One', sans-serif;
+}
+
 *{
     margin: 0;
     padding: 0;
 }
 
 .rodape {
-    background-color: #4c134c;
+    background-color: var(--cor-rodape);
     height: 10vh;
     box-sizing: border-box;
-    color: #F6F6F6;
+    color: var(--cor-secundaria);
     font-size: 12px;
-    font-family: 'Krona One', sans-serif;
+    font-family: var(--fonte-secundaria);
     padding: 40px 0;
     text-align: center;
 }
